@@ -28,12 +28,14 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} flex w-full antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} flex w-full bg-white antialiased md:bg-[#F5F7FA]`}
       >
-        <Sidebar />
+        <div className="hidden md:block">
+          <Sidebar />
+        </div>
         <div className="w-full">
           <Navbar />
-          {children}
+          <main className="px-6 py-2 md:px-8 md:py-6">{children}</main>
         </div>
       </body>
     </html>

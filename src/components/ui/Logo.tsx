@@ -6,7 +6,7 @@ const Logo: React.FC = ({}) => {
   return (
     <Link
       href={"/"}
-      className="flex h-[100px] items-center gap-3 whitespace-nowrap bg-red-100 py-6 pl-12"
+      className="flex h-[100px] items-center gap-3 whitespace-nowrap py-6 pl-12"
     >
       <LogoIcon />
       <h2 className="text-3xl font-extrabold">Soar Task</h2>

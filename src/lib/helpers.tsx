@@ -32,3 +32,15 @@ export const sidebarItems: SidebarItem[] = [
   { id: 8, label: "My Privileges", href: "/privileges", icon: PrivilegesIcon },
   { id: 9, label: "Settings", href: "/settings", icon: SettingsIcon },
 ];
+
+export const routesMap: Record<string, string> = {
+  "/": "Overview",
+  "/transactions": "Transactions",
+  "/accounts": "Accounts",
+  "/investments": "Investments",
+  "/credit-cards": "Credit Cards",
+  "/loans": "Loans",
+  "/services": "Services",
+  "/privileges": "Privileges",
+  "/settings": "Setting",
+};

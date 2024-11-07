@@ -28,9 +28,11 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} flex w-full antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} flex w-full bg-[#F5F7FA] antialiased`}
       >
-        <Sidebar />
+        <div className="hidden md:block">
+          <Sidebar />
+        </div>
         <div className="w-full">
           <Navbar />
           {children}

@@ -4,9 +4,7 @@ import { FormInput } from "../ui/FormInput";
 import { Button } from "../ui/Button";
 import { EditIcon } from "@/assets/icons";
 
-interface ProfileEditProps {}
-
-const ProfileEdit: React.FC<ProfileEditProps> = ({}) => {
+const ProfileEdit: React.FC = ({}) => {
   return (
     <div className="grid grid-cols-1 gap-12 pt-4 md:grid-cols-[100px_1fr]">
       <div className="relative mx-auto flex h-[98px] w-[98px] items-center justify-center rounded-full">

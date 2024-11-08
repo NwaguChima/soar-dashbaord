@@ -1,6 +1,6 @@
 import { Trend } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import React, { FC } from "react";
+import React from "react";
 
 interface TransactionItemProps {
   icon: React.ReactNode;

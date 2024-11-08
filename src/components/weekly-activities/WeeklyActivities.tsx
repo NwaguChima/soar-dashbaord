@@ -1,9 +1,7 @@
 import React from "react";
 import BarChartItem from "../bar-chart/BarChart";
 
-interface WeeklyActivitiesProps {}
-
-const WeeklyActivities: React.FC<WeeklyActivitiesProps> = ({}) => {
+const WeeklyActivities: React.FC = ({}) => {
   return (
     <div className="flex flex-col gap-4">
       <h3 className="text-[22px] text-base font-semibold">Weekly Activity</h3>

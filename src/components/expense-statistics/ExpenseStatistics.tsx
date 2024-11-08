@@ -1,9 +1,7 @@
 import React from "react";
 import PieChartItem from "../pie-chart/PieChart";
 
-interface ExpenseStatisticsProps {}
-
-const ExpenseStatistics: React.FC<ExpenseStatisticsProps> = ({}) => {
+const ExpenseStatistics: React.FC = ({}) => {
   return (
     <div className="flex flex-col gap-4">
       <h3 className="text-[22px] text-base font-semibold">

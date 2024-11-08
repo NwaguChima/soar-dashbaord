@@ -1,9 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-interface UserBadgeProps {}
-
-const UserBadge: React.FC<UserBadgeProps> = ({}) => {
+const UserBadge: React.FC = ({}) => {
   return (
     <div className="flex flex-col items-center justify-center gap-2">
       <div className="relative mx-auto flex h-[98px] w-[98px] items-center justify-center rounded-full">

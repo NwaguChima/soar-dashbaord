@@ -10,9 +10,7 @@ import {
   CarouselPrevious,
 } from "../caurasel/Carousel";
 
-interface QuickTransferProps {}
-
-const QuickTransfer: React.FC<QuickTransferProps> = ({}) => {
+const QuickTransfer: React.FC = ({}) => {
   return (
     <div className="flex flex-col gap-4 md:max-w-[445px]">
       <h3 className="text-[22px] text-base font-semibold">Quick Transfer</h3>

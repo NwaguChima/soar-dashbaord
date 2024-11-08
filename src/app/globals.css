@@ -39,3 +39,7 @@
     top: 28px;
   }
 }
+
+.carousel-btn {
+  box-shadow: 4px 4px 18px -2px #e7e4e8cc;
+}

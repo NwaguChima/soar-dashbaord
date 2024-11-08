@@ -7,7 +7,7 @@ import WeeklyActivities from "@/components/weekly-activities/WeeklyActivities";
 
 export default function Home() {
   return (
-    <div className="px-6 py-2 md:px-8 md:py-6">
+    <div className="px-6 py-2 pb-14 md:px-8 md:py-6 md:pb-12">
       <div className="flex flex-col gap-10 text-[#343C6A]">
         <div className="grid grid-cols-1 gap-6 md:grid-cols-[2fr_1fr]">
           <Cards />

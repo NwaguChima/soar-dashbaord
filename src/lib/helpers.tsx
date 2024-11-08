@@ -2,14 +2,17 @@ import {
   AccountsIcon,
   CreditCardsIcon,
   DashboardIcon,
+  FolderIcon,
   InvestmentsIcon,
   LoansIcon,
+  PayPalIcon,
   PrivilegesIcon,
   ServicesIcon,
   SettingsIcon,
+  TransactIcon,
   TransactionsIcon,
 } from "@/assets/icons";
-import { SidebarItem } from "./types";
+import { SidebarItem, TransactionItem } from "./types";
 
 export const sidebarItems: SidebarItem[] = [
   { id: 1, label: "Dashboard", href: "/", icon: DashboardIcon },
@@ -44,3 +47,33 @@ export const routesMap: Record<string, string> = {
   "/privileges": "Privileges",
   "/settings": "Setting",
 };
+
+export const transactionItems: TransactionItem[] = [
+  {
+    id: 1,
+    description: "Deposit from my Card",
+    date: "28 January 2021",
+    amount: "850",
+    trend: "negative",
+    icon: FolderIcon,
+    background: "#FFF5D9",
+  },
+  {
+    id: 2,
+    description: "Deposit Paypal",
+    date: "25 January 2021",
+    amount: "2,500",
+    trend: "positive",
+    icon: PayPalIcon,
+    background: "#E7EDFF",
+  },
+  {
+    id: 3,
+    description: "Jemi Wilson",
+    date: "21 January 2021",
+    amount: "5,400",
+    trend: "positive",
+    icon: TransactIcon,
+    background: "#DCFAF8",
+  },
+];

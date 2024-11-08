@@ -15,7 +15,7 @@ const Sidebar: React.FC<SideBarProps> = ({ handleClose }) => {
   const pathname = usePathname();
 
   return (
-    <aside className="h-screen w-[260px] overflow-scroll bg-white md:border-r md:border-[#E6EFF5]">
+    <aside className="h-full min-h-screen w-[260px] overflow-scroll bg-white md:border-r md:border-[#E6EFF5]">
       <Logo />
 
       <ul className="mt-4">

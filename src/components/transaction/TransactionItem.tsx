@@ -1,4 +1,3 @@
-import { IconProps } from "@/assets/icons";
 import { Trend } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import React, { FC } from "react";

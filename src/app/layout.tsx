@@ -35,7 +35,7 @@ export default function RootLayout({
         </div>
         <div className="w-full">
           <Navbar />
-          <main className="px-6 py-2 md:px-8 md:py-6">{children}</main>
+          <main>{children}</main>
         </div>
       </body>
     </html>

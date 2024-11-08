@@ -77,3 +77,5 @@ export const transactionItems: TransactionItem[] = [
     background: "#DCFAF8",
   },
 ];
+
+export const tabs = ["Edit Profile", "Preferences", "Security"];
